@@ -46,4 +46,10 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(0.0, 0.0);
         assertEquals(0.0, calculator.multiply());
     }
+
+    @Test
+    void givenZeroAndOne_whenMultiplied_shouldReturnZero() {
+        Calculator calculator = new Calculator(1.0, 0.0);
+        assertEquals(0.0, calculator.multiply());
+    }
 }

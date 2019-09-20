@@ -18,6 +18,6 @@ public class Calculator {
     }
 
     public double multiply() {
-        return 0.0;
+        return secondValue;
     }
 }
