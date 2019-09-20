@@ -16,4 +16,8 @@ public class Calculator {
     public double subtract() {
         return firstValue-secondValue;
     }
+
+    public double multiply() {
+        return 0.0;
+    }
 }

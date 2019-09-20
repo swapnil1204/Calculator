@@ -40,4 +40,10 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(1.0, 1.0);
         assertEquals(0.0, calculator.subtract());
     }
+
+    @Test
+    void givenTwoZeros_whenMultiplied_shouldReturnZero() {
+        Calculator calculator = new Calculator(0.0, 0.0);
+        assertEquals(0.0, calculator.multiply());
+    }
 }
