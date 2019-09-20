@@ -23,8 +23,15 @@ public class CalculatorTest {
         assertEquals(3.0, calculator.add());
     }
 
+    @Test
     void givenTwoZeros_whenSubtracted_shouldReturnZero() {
         Calculator calculator = new Calculator(0.0, 0.0);
         assertEquals(0.0, calculator.subtract());
+    }
+
+    @Test
+    void givenOneZero_whenSubtracted_shouldReturnOne() {
+        Calculator calculator = new Calculator(1.0, 0.0);
+        assertEquals(1.0, calculator.subtract());
     }
 }
