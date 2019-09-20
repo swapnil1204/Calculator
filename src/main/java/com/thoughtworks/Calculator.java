@@ -12,4 +12,8 @@ public class Calculator {
     public double add() {
         return firstValue+secondValue;
     }
+
+    public double subtract() {
+        return 0.0;
+    }
 }

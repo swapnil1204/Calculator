@@ -22,4 +22,9 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(2.0, 1.0);
         assertEquals(3.0, calculator.add());
     }
+
+    void givenTwoZeros_whenSubtracted_shouldReturnZero() {
+        Calculator calculator = new Calculator(0.0, 0.0);
+        assertEquals(0.0, calculator.subtract());
+    }
 }
