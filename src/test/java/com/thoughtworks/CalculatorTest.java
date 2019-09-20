@@ -12,8 +12,14 @@ public class CalculatorTest {
     }
 
     @Test
-    void givenTwoOnes_whenAdded_shouldReturnOne() {
+    void givenTwoOnes_whenAdded_shouldReturnTwo() {
         Calculator calculator = new Calculator(1.0, 1.0);
-        assertEquals(1.0, calculator.add());
+        assertEquals(2.0, calculator.add());
+    }
+
+    @Test
+    void givenTwoAndOne_whenAdded_shouldReturnThree() {
+        Calculator calculator = new Calculator(2.0, 1.0);
+        assertEquals(3.0, calculator.add());
     }
 }

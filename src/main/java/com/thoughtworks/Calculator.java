@@ -10,6 +10,6 @@ public class Calculator {
     }
 
     public double add() {
-        return firstValue;
+        return firstValue+secondValue;
     }
 }
