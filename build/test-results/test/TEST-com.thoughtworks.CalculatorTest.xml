@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-20T12:44:19" hostname="Satyajits-MacBook-Pro.local" time="0.008">
+  <properties/>
+  <testcase name="givenTwoZeros_whenAdded_shouldReturnZero()" classname="com.thoughtworks.CalculatorTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
