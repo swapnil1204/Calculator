@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-09-20T12:56:33" hostname="Satyajits-MacBook-Pro.local" time="0.011">
+<testsuite name="com.thoughtworks.CalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-20T12:58:39" hostname="Satyajits-MacBook-Pro.local" time="0.012">
   <properties/>
-  <testcase name="givenTwoAndOne_whenAdded_shouldReturnThree()" classname="com.thoughtworks.CalculatorTest" time="0.007"/>
-  <testcase name="givenTwoZeros_whenAdded_shouldReturnZero()" classname="com.thoughtworks.CalculatorTest" time="0.001"/>
-  <testcase name="givenOneZero_whenSubtracted_shouldReturnOne()" classname="com.thoughtworks.CalculatorTest" time="0.0"/>
-  <testcase name="givenTwoOnes_whenAdded_shouldReturnTwo()" classname="com.thoughtworks.CalculatorTest" time="0.0"/>
+  <testcase name="givenTwoAndOne_whenAdded_shouldReturnThree()" classname="com.thoughtworks.CalculatorTest" time="0.008"/>
+  <testcase name="givenTwoZeros_whenAdded_shouldReturnZero()" classname="com.thoughtworks.CalculatorTest" time="0.0"/>
+  <testcase name="givenOneZero_whenSubtracted_shouldReturnOne()" classname="com.thoughtworks.CalculatorTest" time="0.001"/>
+  <testcase name="givenTwoOnes_whenAdded_shouldReturnTwo()" classname="com.thoughtworks.CalculatorTest" time="0.001"/>
+  <testcase name="givenTwoOne_whenSubtracted_shouldReturnOne()" classname="com.thoughtworks.CalculatorTest" time="0.0"/>
   <testcase name="givenTwoZeros_whenSubtracted_shouldReturnZero()" classname="com.thoughtworks.CalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
