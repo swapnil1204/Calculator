@@ -48,8 +48,8 @@ public class CalculatorTest {
     }
 
     @Test
-    void givenZeroAndOne_whenMultiplied_shouldReturnZero() {
-        Calculator calculator = new Calculator(1.0, 0.0);
-        assertEquals(0.0, calculator.multiply());
+    void givenTwoAndOne_whenMultiplied_shouldReturnTwo() {
+        Calculator calculator = new Calculator(2.0, 1.0);
+        assertEquals(2.0, calculator.multiply());
     }
 }
